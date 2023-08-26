@@ -26,4 +26,4 @@ jobs:
       with:
         directory: "./"
         token: ${{ secrets.DEPENDENCY_SUBMISSION_KEY }}
-        snapshot-dependency-file-name: "./pom.xml"
+        snapshot-dependency-file-name: "./parent-project/pom.xml"
