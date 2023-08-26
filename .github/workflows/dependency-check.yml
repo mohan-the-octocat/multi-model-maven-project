@@ -27,4 +27,3 @@ jobs:
         directory: "./"
         token: ${{ secrets.DEPENDENCY_SUBMISSION_KEY }}
         snapshot-dependency-file-name: "./pom.xml"
-
